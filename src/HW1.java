@@ -2,17 +2,27 @@
 
 
 import java.util.Scanner;
+import java.util.stream.StreamSupport;
 
 public class HW1 {
     public static void main(String[] args) {
 
-        printName();
-        printTrianglePerimeter();
-        printTriangleArea();
-        printPineTree();
-        printTrianglePerimeterScanner();
-        printTriangleAreaScanner();
-        CalculateDays();
+        System.out.println("Select a Homework to display: ");
+        Scanner scanner = new Scanner(System.in);
+
+        String Homeworks = scanner.nextLine();
+
+        switch (Homeworks) {
+
+            case "1" -> printName();
+            case "2" -> printTrianglePerimeter();
+            case "3" -> printTriangleArea();
+            case "4" -> printPineTree();
+            case "5" -> printTrianglePerimeterScanner();
+            case "6" -> printTriangleAreaScanner();
+            case "7" -> CalculateDays();
+            default -> System.out.println("Invalid task. Please select a valid task.");
+        }
 
     }
 
@@ -52,12 +62,11 @@ public class HW1 {
     // Third Homework - Print the area of a triangle by given sides. Use formula to calculate it
     private static void printTriangleArea(){
 
-        float a = 5.3F;
-        float b = 4.2F;
-        float c = 3.14F;
+        float a = 5.1F;
+        float h = 2.4F;
 
 
-        float area = (a * b * c) / 2;
+        float area = (a * h) / 2;
 
         System.out.println("HW3: " + " " + area);
     }
@@ -113,14 +122,11 @@ public class HW1 {
         System.out.println("Enter a: ");
         float a2 = Float.parseFloat(myObj.nextLine());
 
-        System.out.println("Enter b: ");
-        float b2 = Float.parseFloat(myObj.nextLine());
-
-        System.out.println("Enter c: ");
-        float c2 = Float.parseFloat(myObj.nextLine());
+        System.out.println("Enter h: ");
+        float h2 = Float.parseFloat(myObj.nextLine());
 
 
-        float area = (a2 * b2 * c2) / 2;
+        float area = (a2 * h2) / 2;
 
         System.out.println("HW5 Area: " + " " + area);
 
