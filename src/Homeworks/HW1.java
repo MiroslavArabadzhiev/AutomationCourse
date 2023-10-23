@@ -1,4 +1,4 @@
-// First Homework - Store your names in 3 different variables and print your whole name
+package Homeworks;// First Homework - Store your names in 3 different variables and print your whole name
 
 
 import java.util.Scanner;
@@ -36,7 +36,7 @@ public class HW1 {
 
         String fullName = FirstName + " " + MiddleName + " " + LastName;
 
-        System.out.println("HW1: " + " " + fullName);
+        System.out.println("Homeworks.HW1: " + " " + fullName);
 
     }
 
