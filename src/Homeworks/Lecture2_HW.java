@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Lecture2_HW {
     public static void main(String[] args) {
 
-        System.out.println("Select a Homework to display: ");
+        System.out.print("Select a Homework to display: ");
         Scanner scanner = new Scanner(System.in);
 
         String Homeworks = scanner.nextLine();
