@@ -2,9 +2,8 @@ package Homeworks;// First Homework - Store your names in 3 different variables 
 
 
 import java.util.Scanner;
-import java.util.stream.StreamSupport;
 
-public class HW1 {
+public class Lecture2_HW {
     public static void main(String[] args) {
 
         System.out.println("Select a Homework to display: ");

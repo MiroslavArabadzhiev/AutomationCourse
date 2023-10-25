@@ -11,6 +11,16 @@ public class ExcercisesWithMath {
         ifElseExample();
         IfElseIfExample();
         switchCaseExample();
+        ForLoopExample();
+        ForLoopExample2();
+        WhileLoopExample();
+        WhileLoopExample2();
+        WhileLoopExample3();
+        DoWhileLoopExample();
+        DoWhileLoopExample2();
+        DoWhileLoopExample3();
+        ContinueExample();
+        BreakExample();
 
     }
 
@@ -216,5 +226,153 @@ public class ExcercisesWithMath {
             default:
                 System.out.println("Default");
         }
+        System.out.println();
+        System.out.println();
     }
+
+    private static void ForLoopExample() {
+
+        for (int i=10; i >1; i--) {
+            System.out.println("The value of i is: " + i);
+        }
+        System.out.println();
+        System.out.println();
+    }
+
+    private static void ForLoopExample2() {
+
+        int arr[] = {2,11,45,9};
+
+        //i starts with 0 as array index starts with 0 too
+
+        for (int i=3; i<arr.length; i--){
+            if (i == -1) {
+                break;}
+            else {
+                System.out.println(arr[i]);
+            }
+        }
+        System.out.println();
+        System.out.println();
+    }
+
+    private static void WhileLoopExample() {
+
+        int i=10;
+
+        while(i>=0){
+            System.out.println(i);
+            i--;
+        }
+        System.out.println();
+        System.out.println();
+    }
+
+    private static void WhileLoopExample2() {
+
+        int arr[]={2,11,45,9};
+
+        //i starts with 0 as array index starts with 0 too
+
+        int i=0;
+
+        while(i<4){
+            System.out.println(arr[i]);
+            i++;
+        }
+        System.out.println();
+        System.out.println();
+    }
+
+    private static void WhileLoopExample3() {
+
+        int arr[]={2,11,45,9};
+
+        //i starts with 0 as array index starts with 0 too
+
+        int i=3;
+
+        while (i>=0){
+            System.out.println(arr[i]);
+            i--;
+        }
+        System.out.println();
+        System.out.println();
+    }
+
+    private static void DoWhileLoopExample() {
+
+        int i=10;
+
+        do {
+            System.out.println(i);
+            i--;
+        } while(i>=0);
+
+        System.out.println();
+        System.out.println();
+    }
+
+    private static void DoWhileLoopExample2() {
+
+        int arr[]={2,11,45,9};
+
+        //i starts with 0 as array index starts with 0
+
+        int i=0;
+
+        do {
+            System.out.println(arr[i]);
+            i++;
+        } while(i<4);
+
+        System.out.println();
+        System.out.println();
+    }
+
+    private static void DoWhileLoopExample3() {
+
+        int arr[]={2,11,45,9};
+
+        //i starts with 0 as array index starts with 0
+
+        int i=3;
+
+        do {
+            System.out.println(arr[i]);
+            i--;
+        } while(i>-1);
+
+        System.out.println();
+        System.out.println();
+    }
+
+    private static void ContinueExample() {
+
+        for (int j=0; j<=6; j++) {
+            if (j == 4) {
+                continue;
+            }
+            System.out.print(j + " ");
+        }
+
+        System.out.println();
+        System.out.println();
+    }
+
+    private static void BreakExample() {
+
+        int var;
+
+        for (var=100; var>=10; var--) {
+            System.out.println("var: " + var);
+            if (var == 99) {
+                break;
+            }
+        }
+
+        System.out.println();
+        System.out.println();
+    }
+
 }
