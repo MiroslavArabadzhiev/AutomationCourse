@@ -33,19 +33,19 @@ public class Lecture4_HW {
 
         System.out.print("a: ");
         Scanner scanner = new Scanner(System.in);
-        float a = Float.parseFloat(scanner.nextLine());
+        float a = scanner.nextFloat();
 
         //Get the value of b
 
         System.out.print("b: ");
         scanner = new Scanner(System.in);
-        float b = Float.parseFloat(scanner.nextLine());
+        float b = scanner.nextFloat();
 
         //Get the value of c
 
         System.out.print("c: ");
         scanner = new Scanner(System.in);
-        float c = Float.parseFloat(scanner.nextLine());
+        float c = scanner.nextFloat();
 
         //Calculate if a triangle can be formed and which one
 
@@ -75,7 +75,7 @@ public class Lecture4_HW {
 
         System.out.print("Please select a number from 1 to 7: ");
         Scanner scanner = new Scanner(System.in);
-        int number = Integer.parseInt(scanner.nextLine());
+        int number = scanner.nextInt();
 
         switch (number) {
 
@@ -100,7 +100,7 @@ public class Lecture4_HW {
 
         System.out.print("Enter your age: ");
         Scanner scanner = new Scanner(System.in);
-        int age = Integer.parseInt(scanner.nextLine());
+        int age = scanner.nextInt();
 
         if (age >= 16)
             System.out.println("You are eligible to work.");
@@ -117,13 +117,13 @@ public class Lecture4_HW {
 
         System.out.print("Enter unit price: ");
         Scanner scanner = new Scanner(System.in);
-        float unitPrice = Float.parseFloat(scanner.nextLine());
+        float unitPrice = scanner.nextFloat();
 
         //Get the quantity
 
         System.out.print("Enter quantity: ");
         scanner = new Scanner(System.in);
-        int quantity = Integer.parseInt(scanner.nextLine());
+        int quantity = scanner.nextInt();
 
         //Calculate the Revenue
 
@@ -148,6 +148,10 @@ public class Lecture4_HW {
             System.out.println("The revenue from sale: " + NumberFormat.getCurrencyInstance(Locale.US).format(revenue));
             System.out.print("Discount: " + NumberFormat.getCurrencyInstance(Locale.US).format(discount));
             System.out.print(" (20%)");
+        }
+        else {
+            System.out.println("The revenue from sale: " + NumberFormat.getCurrencyInstance(Locale.US).format(revenue));
+            System.out.print("No Discount is applied!");
         }
     }
 
@@ -182,7 +186,7 @@ public class Lecture4_HW {
 
         System.out.print("Budget per person per day: ");
         scanner = new Scanner(System.in);
-        int budget = Integer.parseInt(scanner.nextLine());
+        int budget = scanner.nextInt();
 
         //Destination
 
