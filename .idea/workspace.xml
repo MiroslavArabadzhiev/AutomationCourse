@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70ba3025-001c-484a-a3aa-40503d42d3a7" name="Changes" comment="Commit after all the Examples in Lecture 5">
+    <list default="true" id="70ba3025-001c-484a-a3aa-40503d42d3a7" name="Changes" comment="Commit after the exercises with Mosh">
       <change afterPath="$PROJECT_DIR$/src/DataStructuresMosh.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DataStructures/LinkedList.java" beforeDir="false" />
@@ -133,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698411771909</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Commit after the exercises with Mosh">
+      <option name="closed" value="true" />
+      <created>1698588622513</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698588622513</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +162,7 @@
     <MESSAGE value="Commit after all the exercises in Lecture 4" />
     <MESSAGE value="Commit after all the Homeworks in Lecture 4" />
     <MESSAGE value="Commit after all the Examples in Lecture 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit after all the Examples in Lecture 5" />
+    <MESSAGE value="Commit after the exercises with Mosh" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit after the exercises with Mosh" />
   </component>
 </project>
