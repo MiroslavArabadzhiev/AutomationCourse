@@ -375,4 +375,6 @@ public class ExcercisesWithMath {
         System.out.println();
     }
 
+    public static class LinkedList<T> {
+    }
 }
