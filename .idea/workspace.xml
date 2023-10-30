@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70ba3025-001c-484a-a3aa-40503d42d3a7" name="Changes" comment="Commit after all the Homeworks in Lecture 5">
-      <change afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MathOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methods.java" afterDir="false" />
+    <list default="true" id="70ba3025-001c-484a-a3aa-40503d42d3a7" name="Changes" comment="Commit after all the Exercises in Lecture 6">
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/Lecture6_HW/Lecture6_HW.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698596224469</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Commit after all the Exercises in Lecture 6">
+      <option name="closed" value="true" />
+      <created>1698672365948</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698672365948</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +186,7 @@
     <MESSAGE value="Commit after all the Examples in Lecture 5" />
     <MESSAGE value="Commit after the exercises with Mosh" />
     <MESSAGE value="Commit after all the Homeworks in Lecture 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit after all the Homeworks in Lecture 5" />
+    <MESSAGE value="Commit after all the Exercises in Lecture 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit after all the Exercises in Lecture 6" />
   </component>
 </project>
