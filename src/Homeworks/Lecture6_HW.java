@@ -1,6 +1,7 @@
 package Homeworks;
 
 import java.util.Scanner;
+import java.lang.*;
 public class Lecture6_HW {
     public static void main(String[] args) {
 
@@ -15,8 +16,11 @@ public class Lecture6_HW {
             case "2" -> System.out.println(computeAverage(2, 6, 8));
             case "3" -> displayMiddleCharacter("Animal");
             case "4" -> System.out.println(countWords(" Hello To This Awesome World "));
+            case "5" -> System.out.println(isEven(8));
+            case "6" -> System.out.println(isPalindrome(3443));
 
             default -> System.out.println("Invalid task. Please select a valid task.");
+
         }
     }
 
@@ -77,5 +81,41 @@ public class Lecture6_HW {
             }
         }
         return counter;
+    }
+
+    // Fifth Homework - Write a method named isEven that accepts an int argument. The method should return true if the
+    //argument is even, or false otherwise.
+    private static boolean isEven(int number) {
+
+        boolean isEven = false;
+
+        if (number % 2 == 0) {
+            isEven = true;
+        }
+        else {
+            isEven = false;
+        }
+        return isEven;
+    }
+
+    // Sixth Homework - Palindrome Number
+    private static boolean isPalindrome(int number) {
+
+        boolean isPalindrome = true;
+
+        String stringValue = Integer.toString(number);
+
+        if (number < 0) {
+            System.out.println("Please fill in a non-negative number!");
+        }
+        else {
+            for (int i = 0; i < stringValue.length() / 2; i++) {
+                if (stringValue.charAt(i) != stringValue.charAt(stringValue.length() - i - 1)) {
+                    isPalindrome = false;
+                    break;
+                }
+            }
+        }
+        return isPalindrome;
     }
 }
