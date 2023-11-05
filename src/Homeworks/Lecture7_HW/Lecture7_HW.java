@@ -1,0 +1,45 @@
+package Homeworks.Lecture7_HW;
+
+import java.util.Scanner;
+
+public class Lecture7_HW {
+    public  static void main(String[] args){
+        HW1();
+
+    }
+
+    Car dailyCar = new Car("Toyota", "grey", 2004, 94, true);
+    Car dailyCar1 = new Car("Toyota", "grey", true);
+    Car dailyCar2 = new Car("Toyota", "grey", 2004, 94);
+    Car dailyCar3 = new Car("Toyota", 2004, 94, true);
+    Car dailyCar4 = new Car();
+
+    private static void HW1 (){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Please provide the first number: ");
+        double num1 = scanner.nextDouble();
+        System.out.print("Please provide the second number: ");
+        double num2 = scanner.nextDouble();
+        System.out.println("Result after division:" + divideNumbers(num1, num2));
+    }
+
+    /**
+     * Try the following combinations
+     *
+     * @param x - -1,1,0,2,10,2,3.5,2
+     * @param y - 2,-2,2,0,2,10,2,3.5
+     */
+    public static double divideNumbers(double x, double y) {
+        try {
+            return x / y;
+        } catch (ArithmeticException e) {
+            throw new RuntimeException("Cannot divide by 0!");
+        }
+    }
+
+
+
+
+
+
+}
