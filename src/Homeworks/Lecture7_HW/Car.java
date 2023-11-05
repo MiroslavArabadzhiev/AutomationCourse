@@ -2,7 +2,7 @@ package Homeworks.Lecture7_HW;
 
 public class Car {
 
-    private String name = "N/A";
+    String name = "N/A";
     private String colour = "N/A";
     private int releaseYear = -1;
     private int hoursePower = -1;

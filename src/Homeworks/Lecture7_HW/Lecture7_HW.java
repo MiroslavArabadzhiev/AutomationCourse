@@ -1,24 +1,26 @@
 package Homeworks.Lecture7_HW;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Scanner;
 
 public class Lecture7_HW {
     public  static void main(String[] args){
-        HW1();
+        //HW1();
+        Car dailyCar = new Car("Toyota", "grey", 2004, 94, true);
+        Car dailyCar1 = new Car("Toyota", "grey", true);
+        Car dailyCar2 = new Car("Toyota", "grey", 2004, 94);
+        Car dailyCar3 = new Car("Toyota", 2004, 94, true);
+        Car dailyCar4 = new Car();
+
+        System.out.println(dailyCar.name);
 
     }
-
-    Car dailyCar = new Car("Toyota", "grey", 2004, 94, true);
-    Car dailyCar1 = new Car("Toyota", "grey", true);
-    Car dailyCar2 = new Car("Toyota", "grey", 2004, 94);
-    Car dailyCar3 = new Car("Toyota", 2004, 94, true);
-    Car dailyCar4 = new Car();
-
     private static void HW1 (){
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please provide the first number: ");
         double num1 = scanner.nextDouble();
-        System.out.print("Please provide the second number: ");
+        System.out.println("Please provide the second number: ");
         double num2 = scanner.nextDouble();
         System.out.println("Result after division:" + divideNumbers(num1, num2));
     }
