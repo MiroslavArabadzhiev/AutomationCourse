@@ -19,7 +19,7 @@ public class Person {
     private int age;
     private String country;
 
-    public Person(String name, String sex, String religion, String language, String hasJob, String nationality, long EGN, String birthDate, int age, String country) {
+    public Person(String name, String sex, String religion, String language, String hasJob, String nationality, long EGN, String country) {
         this.name = name;
         setSex(sex);
         this.religion = religion;
@@ -69,13 +69,17 @@ public class Person {
     }
 
     private void validateSex(String sex) throws Exception {
-        if (!sex.equalsIgnoreCase("Male") || !sex.equalsIgnoreCase("Female")) {
+        if (!sex.equalsIgnoreCase("Male") && !sex.equalsIgnoreCase("Female")) {
             throw new Exception("Please provide valid value for sex");
         }
     }
 
     public void setHasJob(String hasJob) {
         this.hasJob = hasJob;
+    }
+
+    public String getCountry() {
+        return country;
     }
 
     public void setCountry(String country) {
