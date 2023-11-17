@@ -1,3 +1,5 @@
+package Practice.Lecture10;
+
 import org.testng.annotations.Test;
 
 import java.io.IOException;

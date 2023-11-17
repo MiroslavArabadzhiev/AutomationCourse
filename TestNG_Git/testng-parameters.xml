@@ -1,12 +1,12 @@
 <suite name="Web test suite" verbose="1">
     <test name="Smoke Tests">
         <classes>
-            <class name="DataProviders"></class>
+            <class name="Practice.Lecture10.DataProviders"></class>
         </classes>
     </test>
     <test name="Regression Tests">
         <classes>
-            <class name="TestNGParameters"></class>
+            <class name="Practice.Lecture10.TestNGParameters"></class>
             <methods>
                 <include name="testSingleParameter">
                     <parameter name="full-name" value="Harry Potter"></parameter>

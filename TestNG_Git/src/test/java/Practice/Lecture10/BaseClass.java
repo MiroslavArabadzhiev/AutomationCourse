@@ -1,3 +1,5 @@
+package Practice.Lecture10;
+
 import org.testng.Assert;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
@@ -5,25 +7,25 @@ import org.testng.asserts.SoftAssert;
 public class BaseClass {
     @BeforeMethod
     public void beforeMethod() {
-        System.out.println("BaseClass's Before Test method");
+        System.out.println("Practice.Lecture10.BaseClass's Before Test method");
     }
     @AfterMethod
     public void afterMethod() {
-        System.out.println("BaseClass's After Test method");
+        System.out.println("Practice.Lecture10.BaseClass's After Test method");
     }
     @BeforeClass
     public void beforeClass() {
-        System.out.println("BaseClass's Before Class method");
+        System.out.println("Practice.Lecture10.BaseClass's Before Class method");
     }
 
     @Test
     public void testName() {
-        System.out.println("BaseClass's Test method");
+        System.out.println("Practice.Lecture10.BaseClass's Test method");
     }
 
     @AfterClass
     public void afterClass() {
-        System.out.println("BaseClass's After Class method");
+        System.out.println("Practice.Lecture10.BaseClass's After Class method");
     }
 
     public static class AssertionTests {
