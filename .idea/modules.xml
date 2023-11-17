@@ -3,9 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AutomationCourse.iml" filepath="$PROJECT_DIR$/AutomationCourse.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TestNG.iml" filepath="$PROJECT_DIR$/TestNG.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../TestNG/src/main/main.iml" filepath="$PROJECT_DIR$/../TestNG/src/main/main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../TestNG/src/test/test.iml" filepath="$PROJECT_DIR$/../TestNG/src/test/test.iml" />
     </modules>
   </component>
 </project>
