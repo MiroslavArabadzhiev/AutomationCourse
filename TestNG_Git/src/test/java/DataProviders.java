@@ -1,5 +1,3 @@
-package test.java;
-
 import org.testng.*;
 import org.testng.annotations.*;
 

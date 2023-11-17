@@ -1,5 +1,3 @@
-package test.java;
-
 import org.testng.Assert;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;

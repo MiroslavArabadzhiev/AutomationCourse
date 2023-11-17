@@ -1,5 +1,3 @@
-package test.java;
-
 import org.testng.annotations.*;
 
 public class ChildClass extends BaseClass {

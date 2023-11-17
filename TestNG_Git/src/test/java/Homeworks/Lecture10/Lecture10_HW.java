@@ -1,4 +1,4 @@
-package test.java.Homeworks.Lecture10;
+package Homeworks.Lecture10;
 
 import org.testng.Assert;
 import org.testng.annotations.*;
