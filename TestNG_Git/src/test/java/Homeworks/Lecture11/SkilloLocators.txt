@@ -1,0 +1,18 @@
+//*[@id="nav-link-home"] -> the "Home" button
+//*[@id="nav-link-login"] -> the "Login" button
+//*[contains(@href, "users/5028")] -> the Profile of the first user
+//*[contains(text(), "Test_Iv")] -> the Profile of the first user
+//*[contains(text(), "Sign in") and contains(@class, "h")] -> on the Login page the "Sign In" header text
+//*[@name="usernameOrEmail"] -> on the Login page the username field
+//*[@name="password"] -> on the Login page the password field
+//*[contains(text(), "Remember me")] -> on the Login page the "Remember me" text
+//*[@formcontrolname="rememberMe"] -> on the Login page the "Remember me" checkbox
+//*[@id="sign-in-button"] -> on the Login page the "Sign in" button
+//*[contains(text(), "Register")] -> on the Login page the "Register" button
+//*[contains(text(), "Not")] -> on the Login page the "Not a member?" text
+//*[contains(text(), "Sign up")] -> on the Sign Up page the "Sign Up" header text
+//*[@formcontrolname="username"] -> on the Sign Up page the username field
+//*[@formcontrolname="email"] -> on the Sign Up page the email field
+//*[@formcontrolname="password"] -> on the Sign Up page the password field
+//*[@formcontrolname="confirmPassword"] -> on the Sign Up page the confirm password field
+//*[@id="sign-in-button"] -> on the Sign Up page the "Sign in" button

@@ -1,0 +1,3 @@
+//input[@id="ap_password_check"] -> locates an input field by the attribute (@) id
+//*[@id="ap_password_check"] -> locates a field by the attribute (@) id inside the whole document
+//*[starts-with(name(), "h1")] -> locates the header
