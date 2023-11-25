@@ -4,6 +4,7 @@
 //*[contains(text(), "Test_Iv")] -> the Profile of the first user
 //*[contains(text(), "Sign in") and contains(@class, "h")] -> on the Login page the "Sign In" header text
 //*[@name="usernameOrEmail"] -> on the Login page the username field
+//*[@id="defaultLoginFormUsername"] -> on the Login page the username field
 //*[@name="password"] -> on the Login page the password field
 //*[contains(text(), "Remember me")] -> on the Login page the "Remember me" text
 //*[@formcontrolname="rememberMe"] -> on the Login page the "Remember me" checkbox
