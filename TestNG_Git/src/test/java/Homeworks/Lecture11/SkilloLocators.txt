@@ -2,7 +2,7 @@
 //*[@id="nav-link-login"] -> the "Login" button
 //*[contains(@href, "users/5028")] -> the Profile of the first user
 //*[contains(text(), "Test_Iv")] -> the Profile of the first user
-//*[contains(text(), "Sign in") and contains(@class, "h")] -> on the Login page the "Sign In" header text
+.h4 -> on the Login page the "Sign In" header text
 //*[@name="usernameOrEmail"] -> on the Login page the username field
 //*[@id="defaultLoginFormUsername"] -> on the Login page the username field
 //*[@name="password"] -> on the Login page the password field
@@ -17,3 +17,9 @@
 //*[@formcontrolname="password"] -> on the Sign Up page the password field
 //*[@formcontrolname="confirmPassword"] -> on the Sign Up page the confirm password field
 //*[@id="sign-in-button"] -> on the Sign Up page the "Sign in" button
+//*[@id="nav-link-profile"] -> on the Profile page the "Profile" button
+h2 -> the Profile's name
+
+
+username: Test_MA
+password: Test123

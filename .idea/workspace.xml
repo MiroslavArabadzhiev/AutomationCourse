@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70ba3025-001c-484a-a3aa-40503d42d3a7" name="Changes" comment="Commit after all the Homeworks in Lecture 11">
-      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture12/FirstSeleniumTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="70ba3025-001c-484a-a3aa-40503d42d3a7" name="Changes" comment="Commit after all the Exercises in Lecture 12">
+      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture13/Practice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG_Git/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG_Git/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNG_Git/src/test/java/Homeworks/Lecture11/SkilloLocators.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Homeworks/Lecture11/SkilloLocators.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +74,31 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Practice.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice.Lecture13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Practice.Lecture13" />
+      <option name="MAIN_CLASS_NAME" value="Practice.Lecture13.Practice" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Practice.testLogin" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -318,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700399296300</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Commit after all the Exercises in Lecture 12">
+      <option name="closed" value="true" />
+      <created>1700927900102</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1700927900102</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -352,15 +383,26 @@
     <MESSAGE value="Test" />
     <MESSAGE value="Commit after creating a new Maven Module for the TestNG" />
     <MESSAGE value="Commit after all the Homeworks in Lecture 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit after all the Homeworks in Lecture 11" />
+    <MESSAGE value="Commit after all the Exercises in Lecture 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit after all the Exercises in Lecture 12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture12/FirstSeleniumTests.java</url>
-          <line>161</line>
-          <option name="timeStamp" value="9" />
+          <url>file://$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture13/Practice.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture13/Practice.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture13/Practice.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
