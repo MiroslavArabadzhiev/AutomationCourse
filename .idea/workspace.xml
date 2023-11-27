@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70ba3025-001c-484a-a3aa-40503d42d3a7" name="Changes" comment="Commit after all the Exercises in Lecture 12">
-      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture13/Practice.java" afterDir="false" />
+    <list default="true" id="70ba3025-001c-484a-a3aa-40503d42d3a7" name="Changes" comment="Commit after all the Exercises in Lecture 13">
+      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture14/PracticingWaits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNG_Git/src/test/java/Homeworks/Lecture11/SkilloLocators.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Homeworks/Lecture11/SkilloLocators.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture13/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture13/Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -349,7 +350,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700927900102</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Commit after all the Exercises in Lecture 13">
+      <option name="closed" value="true" />
+      <created>1701094766725</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1701094766725</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -384,28 +393,8 @@
     <MESSAGE value="Commit after creating a new Maven Module for the TestNG" />
     <MESSAGE value="Commit after all the Homeworks in Lecture 11" />
     <MESSAGE value="Commit after all the Exercises in Lecture 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit after all the Exercises in Lecture 12" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture13/Practice.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture13/Practice.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture13/Practice.java</url>
-          <line>76</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Commit after all the Exercises in Lecture 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit after all the Exercises in Lecture 13" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history>

@@ -9,7 +9,7 @@
 //*[contains(text(), "Remember me")] -> on the Login page the "Remember me" text
 //*[@formcontrolname="rememberMe"] -> on the Login page the "Remember me" checkbox
 //*[@id="sign-in-button"] -> on the Login page the "Sign in" button
-//*[contains(text(), "Register")] -> on the Login page the "Register" button
+//*[@href="/users/register"] -> on the Login page the "Register" button
 //*[contains(text(), "Not")] -> on the Login page the "Not a member?" text
 //*[contains(text(), "Sign up")] -> on the Sign Up page the "Sign Up" header text
 //*[@formcontrolname="username"] -> on the Sign Up page the username field
