@@ -1,6 +1,7 @@
-package Practice.Lecture13;
+package Homeworks.Lecture14;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.By;
@@ -19,22 +20,25 @@ import java.util.List;
 import static org.testng.Assert.assertEquals;
 
 
-public class Practice {
+public class Lecture14 {
 
     private WebDriver driver;
+    public static final String username = "Test_MA";
+    public static final String password = "Test123";
+
     public static void main(String[] args) {
 
     }
 
     @BeforeSuite
-    protected final void setupTestSuite(){
+    protected final void setupTestSuite() {
         WebDriverManager.edgedriver().setup();
         WebDriverManager.chromedriver().setup();
         WebDriverManager.firefoxdriver().setup();
     }
 
     @BeforeMethod
-    protected final void setupMethod(){
+    protected final void setupMethod() {
         this.driver = new EdgeDriver();
         this.driver.manage().window().maximize();
         this.driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
@@ -42,46 +46,30 @@ public class Practice {
     }
 
     @AfterMethod
-    protected final void tearDownTest(){
-        if(this.driver != null){
+    protected final void tearDownTest() {
+        if (this.driver != null) {
             this.driver.close();
         }
     }
 
-    @DataProvider(name = "getUsers")
-    private Object[][] getUsers(){
-        return new Object[][]{
-                {"Test_MA","Test123","Test_MA"}
-        };
-    }
-
     //invocationCount shows how many times a test should be executed
-    @Test(invocationCount = 3, dataProvider = "getUsers")
-    private void testLogin(String username, String password, String usernameProfilePage){
+    @Test(invocationCount = 5)
+    private void testRegistration() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         //Open the Skillo website
         driver.get("http://training.skillo-bg.com:4300/");
+
+        //Check we are on the correct page
         wait.until(ExpectedConditions.urlContains("http://training.skillo-bg.com:4300/"));
 
-        //Validate page title is matching the expected page
-        String pageTitle = driver.getTitle();
-        Assert.assertEquals(pageTitle,"ISkillo");
-
         //Clicks the login link
-        WebElement loginLink = driver.findElement(By.id("nav-link-login"));
-        wait.until(ExpectedConditions.visibilityOf(loginLink));
+        WebElement loginLink = wait.until(ExpectedConditions.elementToBeClickable(By.id("nav-link-login")));
         loginLink.click();
-
-        //Validate if we are on the correct URL of the login link
-        String currentURL = driver.getCurrentUrl();
-        String expectedURL = "http://training.skillo-bg.com:4300/users/login";
-        wait.until(ExpectedConditions.urlToBe(expectedURL));
 
         //Validate Sign In form is visible
         WebElement signInForm = driver.findElement(By.cssSelector(".h4"));
         wait.until(ExpectedConditions.visibilityOf(signInForm));
-        Assert.assertTrue(signInForm.isDisplayed(), "The Sign In form is not visible");
 
         //Input valid username
         WebElement usernameField = driver.findElement(By.id("defaultLoginFormUsername"));
@@ -91,30 +79,41 @@ public class Practice {
         WebElement passwordField = driver.findElement(By.name("password"));
         passwordField.sendKeys(password);
 
-        //Clicks the Remember Me checkbox
-        WebElement remeberMeCheckbox = driver.findElement(By.xpath("//*[@formcontrolname=\"rememberMe\"]"));
-        remeberMeCheckbox.click();
-
-        //Validate if the Remember Me checkbox is selected
-        Assert.assertTrue(remeberMeCheckbox.isSelected(), "The Remember Me checkbox is not selected");
-
-        //Validate the Sign In button is enabled
+        //Clicks the "Sign In" button
         WebElement signInButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("sign-in-button")));
-
-        //Clicks the Sign In button
         signInButton.click();
 
-        //Validate the Profile link
-        WebElement profileLink = wait.until(ExpectedConditions.elementToBeClickable(By.id("nav-link-profile")));
-
         //Clicks the Profile button
+        WebElement profileLink = wait.until(ExpectedConditions.elementToBeClickable(By.id("nav-link-profile")));
         profileLink.click();
 
-        //Validate the Profile's URL
-        wait.until(ExpectedConditions.urlContains("http://training.skillo-bg.com:4300/users"));
-
-        //Check that the username matches the username provided
-        Boolean isElementTextDisplayed = wait.until(ExpectedConditions.textToBe(By.tagName("h2"), usernameProfilePage));
+        //Checks that the username matches the username provided
+        Boolean isElementTextDisplayed = wait.until(ExpectedConditions.textToBe(By.tagName("h2"), username));
         Assert.assertTrue(isElementTextDisplayed, "The name of the user is displayed");
+
+        //Get the number of posts
+        String numberOfPosts = driver.findElement(By.xpath("//li[contains(text(), \"posts\")]")).getText();
+        System.out.println("The number of posts is: " + numberOfPosts);
+
+        //Get the number of followers
+        String numberOfFollowers = driver.findElement(By.id("followers")).getText();
+        System.out.println("The number of followers is: " + numberOfFollowers);
+
+        //Get the number of followings
+        String numberOfFollowings = driver.findElement(By.id("following")).getText();
+        System.out.println("The number of followings is: " + numberOfFollowings);
+
+        //Clicks on "All" posts
+        WebElement allPosts = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[contains(text(), \"All\")]")));
+        allPosts.click();
+
+        //Clicks on "Public" posts
+        WebElement publicPosts = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[contains(text(), \"Public\")]")));
+        publicPosts.click();
+
+        //Clicks on "Private" posts
+        WebElement privatePosts = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[contains(text(), \"Private\")]")));
+        privatePosts.click();
+
     }
 }

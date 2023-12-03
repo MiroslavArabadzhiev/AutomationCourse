@@ -1,0 +1,17 @@
+Profile Test
+
+1. Open the Skillo website
+2. Check we are on the correct page -> http://training.skillo-bg.com:4300/posts/all
+3. Click "Login" -> //*[@id="nav-link-login"]
+4. Validate the "Sign In" form is visible -> .h4
+5. Input valid username -> Test_MA
+6. Input valid password -> Test123
+7. Click "Sign in" -> //*[@id="sign-in-button"]
+8. Click "Profile" -> //*[@id="nav-link-profile"]
+9. Check that the username matches the username provided -> h2
+10. Get the number of posts -> //li[contains(text(), "posts")]
+11. Get the number of followers -> //*[@id="followers"]
+12. Get the number of followings -> //*[@id="following"]
+13. Click on "All" posts -> //*[contains(text(), "All")]
+14. Click on "Public" posts -> //*[contains(text(), "Public")]
+15. Click on "Private" posts -> //*[contains(text(), "Private")]
