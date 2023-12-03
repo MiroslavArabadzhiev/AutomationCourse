@@ -23,3 +23,9 @@ h2 -> the Profile's name
 
 username: Test_MA
 password: Test123
+
+
+DemoQA Advanced Locators
+
+//*[@for="tree-node-home"]/../button  -> Find unique element, move to parent and then to the element we need to click
+//*[@for="tree-node-home"]/preceding-sibling::button  -> Find unique element, move to sibling and then to the element we need to click
