@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70ba3025-001c-484a-a3aa-40503d42d3a7" name="Changes" comment="Commit after the Homeworks in Lecture 14">
-      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture15/AdvancedLocatorsPractice.java" afterDir="false" />
+    <list default="true" id="70ba3025-001c-484a-a3aa-40503d42d3a7" name="Changes" comment="Commit after all the Exercises in Lecture 15">
+      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture16/factory/HeaderClassFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture16/factory/HomePageFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture16/factory/LoginClassFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture16/factory/PageFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture16/factory/ProfileClassFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture16/factory/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture16/object/HeaderClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture16/object/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture16/object/LoginClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture16/object/PageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture16/object/ProfileClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG_Git/src/test/java/Homeworks/Lecture11/SkilloLocators.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Homeworks/Lecture11/SkilloLocators.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture15/AdvancedLocatorsPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture15/AdvancedLocatorsPractice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,23 +51,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;14&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/m.arabadzhiev/Desktop/Automation/AutomationCourse&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/m.arabadzhiev/Desktop/Automation/AutomationCourse/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "14",
+    "last_opened_file_path": "C:/Users/m.arabadzhiev/Desktop/Automation/AutomationCourse/TestNG_Git/src/test/java/Practice/Lecture16/factory",
+    "onboarding.tips.debug.path": "C:/Users/m.arabadzhiev/Desktop/Automation/AutomationCourse/src/Main.java",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="DataStructures" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\m.arabadzhiev\Desktop\Automation\AutomationCourse\TestNG_Git\src\test\java\Practice\Lecture16\factory" />
       <recent name="C:\Users\m.arabadzhiev\Desktop\Automation\AutomationCourse\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -75,8 +86,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AdvancedLocatorsPractice.testIFrames">
-    <configuration name="AdvancedLocatorsPractice.testAlerts" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.PageFactory.testLogin">
+    <configuration name="AdvancedLocatorsPractice.testCheckBox" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <extension name="coverage">
         <pattern>
@@ -86,7 +97,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Practice.Lecture15" />
       <option name="MAIN_CLASS_NAME" value="Practice.Lecture15.AdvancedLocatorsPractice" />
-      <option name="METHOD_NAME" value="testAlerts" />
+      <option name="METHOD_NAME" value="testCheckBox" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -94,17 +105,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdvancedLocatorsPractice.testConfirmBox" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HerukoApp_HW.testAddRemoveElements" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice.Lecture15.*" />
+          <option name="PATTERN" value="Homeworks.Lecture15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Practice.Lecture15" />
-      <option name="MAIN_CLASS_NAME" value="Practice.Lecture15.AdvancedLocatorsPractice" />
-      <option name="METHOD_NAME" value="testConfirmBox" />
+      <option name="PACKAGE_NAME" value="Homeworks.Lecture15" />
+      <option name="MAIN_CLASS_NAME" value="Homeworks.Lecture15.HerukoApp_HW" />
+      <option name="METHOD_NAME" value="testAddRemoveElements" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -112,17 +123,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdvancedLocatorsPractice.testHoover" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HerukoApp_HW.testChallengingDOM" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice.Lecture15.*" />
+          <option name="PATTERN" value="Homeworks.Lecture15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Practice.Lecture15" />
-      <option name="MAIN_CLASS_NAME" value="Practice.Lecture15.AdvancedLocatorsPractice" />
-      <option name="METHOD_NAME" value="testHoover" />
+      <option name="PACKAGE_NAME" value="Homeworks.Lecture15" />
+      <option name="MAIN_CLASS_NAME" value="Homeworks.Lecture15.HerukoApp_HW" />
+      <option name="METHOD_NAME" value="testChallengingDOM" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -130,17 +141,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdvancedLocatorsPractice.testIFrames" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HerukoApp_HW.testChallnegingDOM" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice.Lecture15.*" />
+          <option name="PATTERN" value="Homeworks.Lecture15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Practice.Lecture15" />
-      <option name="MAIN_CLASS_NAME" value="Practice.Lecture15.AdvancedLocatorsPractice" />
-      <option name="METHOD_NAME" value="testIFrames" />
+      <option name="PACKAGE_NAME" value="Homeworks.Lecture15" />
+      <option name="MAIN_CLASS_NAME" value="Homeworks.Lecture15.HerukoApp_HW" />
+      <option name="METHOD_NAME" value="testChallnegingDOM" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -148,17 +159,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdvancedLocatorsPractice.testPromptBox" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PageFactory.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice.Lecture15.*" />
+          <option name="PATTERN" value="Practice.Lecture16.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Practice.Lecture15" />
-      <option name="MAIN_CLASS_NAME" value="Practice.Lecture15.AdvancedLocatorsPractice" />
-      <option name="METHOD_NAME" value="testPromptBox" />
+      <option name="PACKAGE_NAME" value="Practice.Lecture16" />
+      <option name="MAIN_CLASS_NAME" value="Practice.Lecture16.factory.PageFactory" />
+      <option name="METHOD_NAME" value="testLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -168,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AdvancedLocatorsPractice.testIFrames" />
-        <item itemvalue="TestNG.AdvancedLocatorsPractice.testHoover" />
-        <item itemvalue="TestNG.AdvancedLocatorsPractice.testPromptBox" />
-        <item itemvalue="TestNG.AdvancedLocatorsPractice.testConfirmBox" />
-        <item itemvalue="TestNG.AdvancedLocatorsPractice.testAlerts" />
+        <item itemvalue="TestNG.PageFactory.testLogin" />
+        <item itemvalue="TestNG.AdvancedLocatorsPractice.testCheckBox" />
+        <item itemvalue="TestNG.HerukoApp_HW.testChallengingDOM" />
+        <item itemvalue="TestNG.HerukoApp_HW.testChallnegingDOM" />
+        <item itemvalue="TestNG.HerukoApp_HW.testAddRemoveElements" />
       </list>
     </recent_temporary>
   </component>
@@ -449,7 +460,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701597394817</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Commit after all the Exercises in Lecture 15">
+      <option name="closed" value="true" />
+      <created>1701620704145</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1701620704145</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -487,7 +506,19 @@
     <MESSAGE value="Commit after all the Exercises in Lecture 13" />
     <MESSAGE value="Commit after all the Exercises in Lecture 14" />
     <MESSAGE value="Commit after the Homeworks in Lecture 14" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit after the Homeworks in Lecture 14" />
+    <MESSAGE value="Commit after all the Exercises in Lecture 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit after all the Exercises in Lecture 15" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TestNG_Git/src/test/java/Homeworks/Lecture15/HerukoApp_HW.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history>

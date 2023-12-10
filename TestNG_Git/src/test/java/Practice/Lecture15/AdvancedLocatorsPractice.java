@@ -51,7 +51,7 @@ public class AdvancedLocatorsPractice {
     @AfterMethod
     protected final void tearDownTest() {
         if (this.driver != null) {
-            this.driver.close();
+            this.driver.quit();
         }
     }
 
