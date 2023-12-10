@@ -6,12 +6,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class HomePageFactory {
+public class HomePage {
     public static final String PAGE_URL = "http://training.skillo-bg.com:4300/";
 
     private final WebDriver driver;
 
-    public HomePageFactory(WebDriver driver) {
+    public HomePage(WebDriver driver) {
         this.driver = driver;
     }
 

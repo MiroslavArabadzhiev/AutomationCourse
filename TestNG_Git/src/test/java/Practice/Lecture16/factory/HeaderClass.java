@@ -10,22 +10,21 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class HeaderClassFactory {
+public class HeaderClass {
     private final WebDriver driver;
 
     @FindBy(id = "nav-link-profile")
     private WebElement profileLink;
-
     @FindBy(id = "nav-link-login")
     private WebElement loginLink;
 
-
-    public HeaderClassFactory(WebDriver driver) {
+    public HeaderClass(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver, this);
+        PageFactory.initElements(driver,this);
     }
 
     public void clickProfileLink(){
+        //Validate the Profile link
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         wait.until(ExpectedConditions.elementToBeClickable(profileLink));
         profileLink.click();

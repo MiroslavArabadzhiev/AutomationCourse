@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class ProfileClassFactory {
+public class ProfileClass {
     public static final String PAGE_URL = "http://training.skillo-bg.com:4300/users";
 
     private final WebDriver driver;
@@ -18,9 +18,9 @@ public class ProfileClassFactory {
     @FindBy(tagName = "h2")
     private WebElement loggedInUser;
 
-    public ProfileClassFactory(WebDriver driver) {
+    public ProfileClass(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver, this);
+        PageFactory.initElements(driver,this);
     }
 
     public boolean isUrlLoaded(){
@@ -31,5 +31,4 @@ public class ProfileClassFactory {
     public String getUsername(){
         return loggedInUser.getText();
     }
-
 }

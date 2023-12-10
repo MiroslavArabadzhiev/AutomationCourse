@@ -2,8 +2,9 @@ package Practice.Lecture16.factory;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.lang3.RandomStringUtils;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.support.ui.*;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
@@ -14,19 +15,15 @@ public class TestClass {
 
     private WebDriver driver;
 
-    public TestClass(WebDriver driver) {
-        this.driver = driver;
-    }
-
-    public WebDriver getDriver() {
-        return driver;
-    }
-
     @BeforeSuite
     protected final void setupTestSuite() {
         WebDriverManager.edgedriver().setup();
         WebDriverManager.chromedriver().setup();
         WebDriverManager.firefoxdriver().setup();
+    }
+
+    public WebDriver getDriver() {
+        return driver;
     }
 
     @BeforeMethod
@@ -42,6 +39,32 @@ public class TestClass {
         if (this.driver != null) {
             this.driver.quit();
         }
+    }
+
+    //Click on element identified by identifier
+    public void waitAndClick(By identifier){
+        // Waiting 30 seconds for an element to be present on the page, checking
+        // for its presence once every 1 second.
+        Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
+                .withTimeout(Duration.ofSeconds(30))
+                .pollingEvery(Duration.ofSeconds(1))
+                .ignoring(NoSuchElementException.class);
+
+        WebElement elem = wait.until(ExpectedConditions.presenceOfElementLocated(identifier));
+        elem.click();
+    }
+
+    //Click on WebElement
+    public void waitAndClickElement(WebElement element){
+        // Waiting 30 seconds for an element to be present on the page, checking
+        // for its presence once every 1 second.
+        Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
+                .withTimeout(Duration.ofSeconds(30))
+                .pollingEvery(Duration.ofSeconds(1))
+                .ignoring(NoSuchElementException.class);
+
+        WebElement elem = wait.until(ExpectedConditions.elementToBeClickable(element));
+        elem.click();
     }
 
     private String generateRandomString(int minLenghtInclusive, int maxLenghtInclusive) {

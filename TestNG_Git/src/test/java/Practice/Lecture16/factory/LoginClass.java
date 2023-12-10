@@ -10,14 +10,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class LoginClassFactory {
+public class LoginClass {
     public static final String PAGE_URL = "http://training.skillo-bg.com:4300/users/login";
 
     private final WebDriver driver;
 
     @FindBy(css = ".h4")
     private WebElement signInForm;
-
     @FindBy(id = "defaultLoginFormUsername")
     private WebElement usernameField;
 
@@ -27,10 +26,9 @@ public class LoginClassFactory {
     @FindBy(id = "sign-in-button")
     private WebElement signInButton;
 
-
-    public LoginClassFactory(WebDriver driver) {
+    public LoginClass(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver, this);
+        PageFactory.initElements(driver,this);
     }
 
     public boolean isUrlLoaded(){
@@ -49,14 +47,12 @@ public class LoginClassFactory {
     }
 
     public void populatePassword(String password){
-        passwordField.sendKeys(password);
+         passwordField.sendKeys(password);
     }
 
     public void clickSignIn(){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-        wait.until(ExpectedConditions.elementToBeClickable(signInButton));
         signInButton.click();
-
     }
 
 

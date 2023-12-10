@@ -14,11 +14,8 @@ public class PageFactory extends TestClass{
 
     private WebDriver driver;
 
-    public PageFactory(WebDriver driver) {
-        super(driver);
-    }
-
     public static void main(String[] args) {
+
     }
 
     @DataProvider(name = "getUsers")
@@ -34,16 +31,16 @@ public class PageFactory extends TestClass{
         WebDriverWait wait = new WebDriverWait(super.getDriver(), Duration.ofSeconds(30));
 
         //Home Page Class
-        HomePageFactory homePage = new HomePageFactory(super.getDriver());
+        HomePage homePage = new HomePage(super.getDriver());
         homePage.navigatTo();
         homePage.isUrlLoaded();
 
         //Header Class
-        HeaderClassFactory headerMenu = new HeaderClassFactory(super.getDriver());
+        HeaderClass headerMenu = new HeaderClass(super.getDriver());
         headerMenu.clickLoginLink();
 
         //Login Class
-        LoginClassFactory loginPage = new LoginClassFactory(super.getDriver());
+        LoginClass loginPage = new LoginClass(super.getDriver());
         loginPage.isUrlLoaded();
 
         //Get Sign in text
@@ -63,7 +60,7 @@ public class PageFactory extends TestClass{
         headerMenu.clickProfileLink();
 
         //Create Profile Class
-        ProfileClassFactory profilePage = new ProfileClassFactory(super.getDriver());
+        ProfileClass profilePage = new ProfileClass(super.getDriver());
         profilePage.isUrlLoaded();
 
         //Get Logged in user text
