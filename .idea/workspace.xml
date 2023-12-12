@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70ba3025-001c-484a-a3aa-40503d42d3a7" name="Changes" comment="Commit after all the Exercises in Lecture 16">
-      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/main/resources/upload/AutomationQA.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture17/download/DownloadFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture17/upload/HeaderClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture17/upload/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture17/upload/LoginClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture17/upload/PostPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture17/upload/ProfileClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture17/upload/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture17/upload/TestFileUpload.java" afterDir="false" />
+    <list default="true" id="70ba3025-001c-484a-a3aa-40503d42d3a7" name="Changes" comment="Commit after all the Exercises in Lecture 17">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG_Git/src/test/java/Homeworks/Lecture11/SkilloLocators.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Homeworks/Lecture11/SkilloLocators.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture16/factory/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG_Git/src/test/java/Practice/Lecture16/factory/TestClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +79,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DownloadFiles.testDownload">
+  <component name="RunManager" selected="TestNG.PageFactory.testLogin">
     <configuration name="DownloadFiles.testDownload" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <shortenClasspath name="NONE" />
@@ -210,9 +201,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PageFactory.testLogin" />
         <item itemvalue="TestNG.DownloadFiles.testDownload" />
         <item itemvalue="TestNG.TestFileUpload.testFileUpload" />
-        <item itemvalue="TestNG.PageFactory.testLogin" />
         <item itemvalue="TestNG.TestFileUpload.testLogin" />
         <item itemvalue="TestNG.PageObject.testLogin" />
       </list>
@@ -515,7 +506,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702231325113</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Commit after all the Exercises in Lecture 17">
+      <option name="closed" value="true" />
+      <created>1702374744125</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1702374744125</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Commit after all the Exercises in Lecture 17">
+      <option name="closed" value="true" />
+      <created>1702374857291</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1702374857291</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -530,7 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial Commit" />
     <MESSAGE value="Commit all the files" />
     <MESSAGE value="Commit after Lecture 4" />
     <MESSAGE value="Commit after all the exercises in Lecture 4" />
@@ -555,7 +561,8 @@
     <MESSAGE value="Commit after the Homeworks in Lecture 14" />
     <MESSAGE value="Commit after all the Exercises in Lecture 15" />
     <MESSAGE value="Commit after all the Exercises in Lecture 16" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit after all the Exercises in Lecture 16" />
+    <MESSAGE value="Commit after all the Exercises in Lecture 17" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit after all the Exercises in Lecture 17" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
