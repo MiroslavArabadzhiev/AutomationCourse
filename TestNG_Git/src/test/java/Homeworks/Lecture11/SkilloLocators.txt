@@ -20,6 +20,8 @@
 //*[@id="nav-link-profile"] -> on the Profile page the "Profile" button
 h2 -> the Profile's name
 
+.file[type="file"] -> uploading a file
+
 
 username: Test_MA
 password: Test123
