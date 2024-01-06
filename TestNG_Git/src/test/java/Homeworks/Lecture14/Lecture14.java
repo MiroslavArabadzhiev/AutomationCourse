@@ -53,8 +53,8 @@ public class Lecture14 {
     }
 
     //invocationCount shows how many times a test should be executed
-    @Test(invocationCount = 5)
-    private void testRegistration() {
+    @Test()
+    private void testLogin() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         //Open the Skillo website

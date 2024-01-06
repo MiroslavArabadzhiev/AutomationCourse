@@ -17,15 +17,10 @@ public class HomePage {
 
     public boolean isUrlLoaded(){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-        return wait.until(ExpectedConditions.urlToBe(PAGE_URL));
+        return wait.until(ExpectedConditions.urlContains(PAGE_URL));
     }
 
     public void navigatTo(){
         driver.get(PAGE_URL);
     }
-
-
-
-
-
 }

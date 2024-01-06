@@ -72,12 +72,5 @@ public class TestFileUpload extends TestClass {
 
         //Click on the Create Post button
         postPage.clickCreatePost();
-
-
-
-
-
-
-
     }
 }

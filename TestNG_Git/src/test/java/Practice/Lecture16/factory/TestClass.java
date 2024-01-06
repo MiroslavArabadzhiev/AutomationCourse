@@ -29,6 +29,7 @@ public class TestClass {
 
     @BeforeMethod
     protected final void setupMethod() {
+        //this.driver = new ChromeDriver();
         this.driver = new EdgeDriver();
         this.driver.manage().window().maximize();
         this.driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
